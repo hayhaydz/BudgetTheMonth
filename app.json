@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Budget The Month",
+    "slug": "budget_the_month",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F6F3ED"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F6F3ED"
+      },
+      "package": "com.hayhaydz.budget_the_month"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
